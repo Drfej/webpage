@@ -1,0 +1,19 @@
+.Link-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    width: 100%;
+}
+
+.Link-section button{
+    width: 1000px;
+    height: 76px;
+    margin: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #EAECF0;
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+}

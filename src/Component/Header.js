@@ -5,7 +5,7 @@ function Header() {
   return (
     <main>
         <img src={img1} alt=""/>
-        <h2>James Funsho</h2>
+        <h2>Jamesfunsho3</h2>
 
     </main>
   )
