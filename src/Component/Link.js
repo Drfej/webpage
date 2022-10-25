@@ -1,5 +1,6 @@
 import React from 'react'
 
+// The Link section that covers the different buttons with different id.
 function Link() {
   return (
     <section className='Link-section'>

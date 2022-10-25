@@ -1,0 +1,15 @@
+.Social-icon {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: 70px;
+    margin-bottom: 150px;
+}
+
+.Social-icon div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70px;
+        
+}

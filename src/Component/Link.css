@@ -17,3 +17,7 @@
     border: 1px solid #EAECF0;
     border-radius: 8px;
 }
+
+.Link-section button:hover{
+    background-color: #d0d5dd;
+}

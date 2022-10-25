@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './Component/Header.css';
 import './Component/Link.css';
+import './Component/Social.css';
+import './Component/Container.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
