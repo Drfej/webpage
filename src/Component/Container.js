@@ -10,9 +10,9 @@ function Container() {
         <div className='Content-line'></div>
         
         <div className='Content-info'>
-            <img src={img4} alt=''/>
+            <div className='Zuri-img'><img src={img4} alt=''/></div>
             <span>HNG Internship 9 Frontend Task</span>
-            <img src={img5} alt=''/>
+            <div className='Zuri-icon'><img src={img5} alt=''/></div>
         </div>
     </footer>
   )

@@ -1,5 +1,10 @@
 main {
     display: flex;
+    align-items: center;
+}
+
+.Profile {
+    display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0%;
@@ -7,13 +12,35 @@ main {
     height: 170px;
 }
 
-main img {
+.Profile img {
     width: 120px;
     height: auto;
     border-radius: 70px;
+    
+}
+
+.image {
+    display: none;
+    position: absolute;
+    right: 180px;
+    top: 10px;
+
 }
 
 main h2 {
     font-size: 22px;
     font-weight: 700;
+}
+
+@media screen and (max-width: 800px) {
+    .Profile img {
+        width: 100px;
+        margin-top: 30px;
+    }
+
+    .image {
+        display: inline;
+        top: 5px;
+    }
+
 }

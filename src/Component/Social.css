@@ -11,5 +11,14 @@
     align-items: center;
     justify-content: space-between;
     width: 70px;
-        
+    
+}
+
+@media screen and (max-width: 800px) {
+    .Social-icon {
+        width: 400px;
+        height: 60px;
+        margin-bottom: 90px;
+    }
+
 }

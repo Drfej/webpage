@@ -7,7 +7,7 @@ function Social() {
   return (
     <section2 className='Social-icon'>
         <div>
-            <img src={img3} alt=''/>
+            <a href='https://app.slack.com/client/T042F7V19Q8/C041V6WKAUS' target = '_blank' rel = 'noreferrer'><img src={img3} alt=''/></a>
             <a href='https://github.com/Drfej/webpage' target='_blank' rel='noreferrer'><img src={img2} alt=''/></a>
         </div>
 
