@@ -1,7 +1,5 @@
 import React from 'react'
-import { Link } from "react-router-dom";
 
-// The Link section that covers the different buttons with different id.
 function Blinks() {
   return (
     <section className='Link-section'>
@@ -11,7 +9,7 @@ function Blinks() {
         <a href='https://books.zuri.team/python-for-beginners?ref_id=<Fej>' target="_blank" rel="noreferrer" id='book__python'><button>Python Books</button></a>
         <a href='https://background.zuri.team' target="_blank" rel="noreferrer" id='pitch'><button>Background Checks for Coders</button></a>
         <a href='https://books.zuri.team/design-rules' target="_blank" rel="noreferrer" id='book__design'><button>Design Books</button></a>
-        <Link to="/contact" id='contact'><button>Contact Me</button></Link>
+        
     </section>
   )
 }
