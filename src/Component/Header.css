@@ -1,3 +1,7 @@
+.profile-page {
+    align-items: center;
+}
+
 main {
     display: flex;
     align-items: center;
@@ -18,6 +22,13 @@ main {
     height: auto;
     border-radius: 70px;
     
+}
+
+.Profile h2 {
+    font-family: 'inter';
+    color: 101828;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .image {
@@ -44,25 +55,77 @@ main h2 {
     display: none;
 }
 
-@media screen and (max-width: 800px) {
-    .Profile img {
-        width: 100px;
-        margin-top: 30px;
-    }
 
-    .image {
-        display: inline;
-        top: 5px;
+
+.Link-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    width: 100%;
+}
+
+.Link-section button{
+    font-family: 'inter';
+    width: 1100px;
+    height: 76px;
+    margin: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #EAECF0;
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+}
+
+.Link-section button:hover{
+    background-color: #d0d5dd;
+}
+
+
+.Social-icon {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: 70px;
+    margin-bottom: 100px;
+}
+
+.Social-icon div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70px;
+    
+}
+
+
+
+@media screen and (max-width: 940px) {
+    .Profile h2 {
+        font-size: 18px;
     }
 
     .shareButton {
         display: none;
     }
+    
 
-    main h2 {
-        font-size: 14px;
+    .image {
+        position: absolute;
+        display: block;
+    
     }
 
+    .Link-section button{
+        width: 420px;
+        height: 68px;
+        font-size: 16px;
+        margin: 10px;
+    }
 
+    
+
+    
 
 }
