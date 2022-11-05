@@ -1,7 +1,6 @@
 import React from "react"
 
-
-function Contact() {
+const Contact = () => {
   return (
     <div className='contact-1'>
       <div className='con-1'>
