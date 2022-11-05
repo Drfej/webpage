@@ -4,6 +4,7 @@ import logo from '../Button.jpg';
 import icon2 from '../Share.jpg';
 import img2 from '../Icon.png';
 import img3 from '../slack.png';
+import { Link } from 'react-router-dom';
 
 
 // My profile section that covers the profile image and twitter id
@@ -28,16 +29,17 @@ function Header() {
         <a href='http://books.zuri.team' target="_blank" rel="noreferrer" id='books'><button>Zuri Books</button></a>
         <a href='https://books.zuri.team/python-for-beginners?ref_id=<Fej>' target="_blank" rel="noreferrer" id='book__python'><button>Python Books</button></a>
         <a href='https://background.zuri.team' target="_blank" rel="noreferrer" id='pitch'><button>Background Checks for Coders</button></a>
-        <a href='https://books.zuri.team/design-rules' target="_blank" rel="noreferrer" id='book__design'><button>Design Books</button></a>        
-    </section>
+        <a href='https://books.zuri.team/design-rules' target="_blank" rel="noreferrer" id='book__design'><button>Design Books</button></a>
+        <Link to="/contact"><button>Contact me</button></Link>        
+      </section>
 
-    <section2 className='Social-icon'>
-        <div>
-            <a href='https://app.slack.com/client/T042F7V19Q8/C041V6WKAUS' target = '_blank' rel = 'noreferrer'><img src={img3} alt=''/></a>
-            <a href='https://github.com/Drfej/webpage' target='_blank' rel='noreferrer'><img src={img2} alt=''/></a>
-        </div>
+      <section2 className='Social-icon'>
+          <div>
+              <a href='https://app.slack.com/client/T042F7V19Q8/C041V6WKAUS' target = '_blank' rel = 'noreferrer'><img src={img3} alt=''/></a>
+              <a href='https://github.com/Drfej/webpage' target='_blank' rel='noreferrer'><img src={img2} alt=''/></a>
+          </div>
 
-    </section2>  
+      </section2>  
     </div>
     
   )

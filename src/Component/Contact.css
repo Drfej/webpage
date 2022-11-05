@@ -1,0 +1,254 @@
+.contact-1 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    width: 100%;
+    max-width: 700px;
+    height: 80vh;
+    margin: 60px;
+}
+
+
+.con-1 h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #101828;
+
+}
+
+.con-1 h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #475467;
+
+}
+
+
+.user-name {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.user-name2 {
+    display: flex;
+    justify-content: space-between;
+    width: 620px;
+}
+
+.user-first {
+    display: flex;
+    flex-direction: column;
+}
+.user-first label{
+    color: #344054;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-last {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-last label{
+    color: #344054;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-name2 input {
+    color: #667085;
+    background: #ffffff;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    width: 300px;
+    height: 44px;
+    padding-left: 10px;
+    font-size: 16px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+.user-name2 input:hover{
+    border: 1px solid #84CAFF;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+.user-name input:focus {
+    outline: none !important;
+    border: 1px solid #84CAFF;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+::placeholder {
+    color: #667085;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.user-mail {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.user-mail label {
+    color: #344054;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-mail input {
+    color: #667085;
+    background: #ffffff;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    width: 620px;
+    height: 44px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.user-mail input:hover {
+    border: 1px solid #84CAFF;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+.user-mail input:focus {
+    outline: none !important;
+    border: 1px solid #84CAFF;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+.message {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.message label{
+    color: #344054;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.message textarea{
+    color: #667085;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    width: 620px;
+    height: 132px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 14px;
+
+}
+
+.message textarea:hover{
+    border: 1px solid #84CAFF;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #D1E9FF;
+
+}
+
+.message textarea:focus {
+    outline: none !important;
+    border: 1px solid #84CAFF;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+.message textarea::placeholder {
+    color: #667085;
+    font-size: 16px;
+}
+
+.checkBox {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.check {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkBox label {
+    cursor: pointer;
+    display: flex;
+    font-size: 16px;
+    color: #475467;
+}
+
+.checkBox input[type='checkbox'] {
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+}
+
+.checkBox label::before {
+    content: '';
+    width: 1em;
+    height: 1em;
+    border-radius: .3em;
+    margin-right: .5em;
+    border: .05em solid #D0D5DD;
+
+}
+
+.checkBox label:hover::before,
+.checkBox input[type='checkbox']:hover + label::before {
+    background-color: #ffffff;
+    border: 1px solid #84CAFF;
+    box-shadow: 0px 0px 0px 4px #D1E9FF;
+}
+
+.checkBox input[type='checkbox']:checked + label::before {
+    content: '\002714';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1570EF;
+    border: 1px solid #1570EF;
+    background: #F9FAFB;
+    
+}
+
+.btn {
+    color: #ffffff;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    width: 620px;
+    height: 48px;
+    border: 1px solid #1570EF;
+    border-radius: 8px;
+    background: #1570EF;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+.btn:hover {
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #D1E9FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
