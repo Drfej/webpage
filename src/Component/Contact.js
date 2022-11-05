@@ -1,6 +1,7 @@
-import React from 'react'
+import React from "react"
 
-const Contact = () => {
+
+function Contact() {
   return (
     <div className='contact-1'>
       <div className='con-1'>
@@ -13,23 +14,27 @@ const Contact = () => {
           <div className='user-name2'>
             <div className='user-first'>
               <label><strong>First name</strong></label>
-              <input type='text' placeholder='Enter your first name' id = 'first_name' name='first-name' required />
+              <input type='text' placeholder='Enter your first name' 
+              id = 'first_name' name='first-name'/>
             </div>
             <div className='user-last'>
               <label><strong>Last name</strong></label>
-              <input type='text' placeholder='Enter your last name' id = 'last_name' name='last-name' required />
+              <input type='text' placeholder='Enter your last name' 
+              id = 'last_name' name='last-name'/>
             </div>
           </div>
         </div>
 
         <div className='user-mail'>
           <label><strong>Email</strong></label>
-          <input type='email' placeholder='yourname@email.com' id = 'email' name='email' required />
+          <input type='email' placeholder='yourname@email.com' 
+          id = 'email' name='email'/>
         </div>
 
         <div className='message'>
           <label><strong>Message</strong></label>
-          <textarea id='message' placeholder='Send me a message and I will reply you as soon as possible...' name='message' required />
+          <textarea id='message' placeholder='Send me a message and I will reply you as soon as possible...' 
+          name='message' />
         </div>
 
         <div className='checkBox'>
