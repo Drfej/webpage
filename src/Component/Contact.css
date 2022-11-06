@@ -37,8 +37,15 @@
 }
 
 .user-first {
+    position: relative;
     display: flex;
     flex-direction: column;
+}
+
+.error {
+    position: absolute;
+    color: red;
+    bottom: -35px;
 }
 .user-first label{
     color: #344054;

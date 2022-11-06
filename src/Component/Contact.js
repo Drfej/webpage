@@ -1,6 +1,7 @@
-import React from "react"
+import React from 'react'
 
 const Contact = () => {
+
   return (
     <div className='contact-1'>
       <div className='con-1'>
@@ -14,12 +15,14 @@ const Contact = () => {
             <div className='user-first'>
               <label><strong>First name</strong></label>
               <input type='text' placeholder='Enter your first name' 
-              id = 'first_name' name='first-name'/>
+              id = 'first_name' name='first-name' required/>
+              
             </div>
+
             <div className='user-last'>
               <label><strong>Last name</strong></label>
               <input type='text' placeholder='Enter your last name' 
-              id = 'last_name' name='last-name'/>
+              id = 'last_name' name='last-name' required/>
             </div>
           </div>
         </div>
@@ -27,13 +30,13 @@ const Contact = () => {
         <div className='user-mail'>
           <label><strong>Email</strong></label>
           <input type='email' placeholder='yourname@email.com' 
-          id = 'email' name='email'/>
+          id = 'email' name='email' required/>
         </div>
 
         <div className='message'>
           <label><strong>Message</strong></label>
           <textarea id='message' placeholder='Send me a message and I will reply you as soon as possible...' 
-          name='message' />
+          name='message' required/>
         </div>
 
         <div className='checkBox'>
@@ -43,7 +46,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <button id='btn__submit' type='submit' className='btn'><strong>Send message</strong></button>
+        <button id='btn__submit' type='submit' className='btn' required><strong>Send message</strong></button>
         
       </form>
 
