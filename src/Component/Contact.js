@@ -41,7 +41,7 @@ const Contact = () => {
 
         <div className='checkBox'>
           <div className='check'>
-            <input type='checkbox' />
+            <input type='checkbox' required/>
             <label>You agree to providing your data to the people who may contact you</label>
           </div>
         </div>
